@@ -1,29 +1,29 @@
 import type { NavigationLink, Site } from './types.ts'
 
 export const SITE: Site = {
-    author: 'Godruoyi',
-    url: 'https://godruoyi.com',
-    title: '连波的闲谈杂鱼',
-    description: 'Godruoyi\'s personal blog, I enjoy the process of building something using any technology stack',
+    author: 'QinYuan',
+    url: 'https://QIN666.TOP',
+    title: '覃远的冲浪笔记',
+    description: 'QinYuan\'s personal blog, I enjoy the process of building something using any technology stack',
     shortDescription: '',
 }
 
 export const NavigationLinks: NavigationLink[] = [
-    { name: 'Posts', url: '/posts' },
-    { name: 'Category', url: '/categories' },
-    { name: 'Timeline', url: '/timeline' },
-    { name: 'About', url: '/posts/about-godruoyi' },
-    { name: 'Friends', url: '/friends' },
+    { name: '博文', url: '/posts' },
+    { name: '分类', url: '/categories' },
+    { name: '时间线', url: '/timeline' },
+    { name: '关于我', url: '/posts/about-godruoyi' },
+    { name: '友链', url: '/friends' },
 ]
 
 export const FooterLinks = [
     {
         section: 'Blog',
         links: [
-            { name: 'Posts', url: '/posts' },
-            { name: 'Timeline', url: '/timeline' },
-            { name: 'Categories', url: '/categories' },
-            { name: 'About Me', url: '/posts/about-godruoyi' },
+            { name: '博文', url: '/posts' },
+            { name: '时间线', url: '/timeline' },
+            { name: '分类', url: '/categories' },
+            { name: '关于我', url: '/posts/about-godruoyi' },
         ],
     },
     {
